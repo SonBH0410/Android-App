@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "847415539392",
+    "firebase_url": "https://firstproject-65bb8.firebaseio.com",
+    "project_id": "firstproject-65bb8",
+    "storage_bucket": "firstproject-65bb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847415539392:android:d25fb1e4b6719e34769f25",
+        "android_client_info": {
+          "package_name": "com.dtvt05.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847415539392-psu32t2u8v3esseo1imqh3jqtuojqsgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADYfytr33a86vrgst6BZrA21iGrSZLIUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847415539392-psu32t2u8v3esseo1imqh3jqtuojqsgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

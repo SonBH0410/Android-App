@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorMainDark</item>
+        <item name="colorAccent">@color/colorMain</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColorPrimaryDisableOnly">#00838f</item>
+        <item name="colorAccent">@color/colorMain</item>
+    </style>
+
+    <style name="CustomAppTheme2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColorPrimaryDisableOnly">#00838f</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/segoeuib</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/colorMain</item>
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+
+
+</resources>

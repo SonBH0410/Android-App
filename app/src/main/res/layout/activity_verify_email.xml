@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyEmail">
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Verify"
+        android:fontFamily="@font/segoeui"
+        android:text="Nếu đã xác thực, bấm vào nút màu đỏ. "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="234dp" />
+    <TextView
+        android:id="@+id/Note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Note"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/segoeui"
+        android:text="Bấm nút màu xanh để gửi lại email. "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/segoeuib"
+        android:text="Vui lòng xác thực email \n   trước khi đăng nhập"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_blue"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Note2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_red"
+        android:text="Đây là nút \nxanh"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_red"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Note2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/btn_blue"
+        android:text="Đây là nút \nđỏ"
+        android:textColor="@color/white" />
+</RelativeLayout>

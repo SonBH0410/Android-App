@@ -1,0 +1,7 @@
+CODE1: 
+ - Duyệt 2 trường hợp, nếu mình là người gửi thì sẽ lấy ra tên
+người nhận để hiển thị, ListChatWithMe để chứa danh sách những
+người chat với mình
+ - Nếu mình là người nhận thì sẽ lấy tên người gửi để hiển thị
+ - Mảng ListChatWithMe để lưu danh sách những người nhắn tin
+để khi lặp k bị trùng 1 người hiện 2 lần.

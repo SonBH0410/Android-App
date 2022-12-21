@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AES Messenger</string>
+    <string name="title_item_friend">Bạn bè</string>
+    <string name="title_item_chat">Tin nhắn</string>
+    <string name="welcome">Chào mừng bạn đến với</string>
+    <string name="welcome2">AES Messenger</string>
+    <string name="login">Đăng nhập</string>
+    <string name="sign_up">Đăng kí</string>
+    <string name="Sign_up">Đăng kí</string>
+    <string name="email_address">Địa chỉ email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot_pass">Quên mật khẩu?</string>
+    <string name="name">Họ tên</string>
+    <string name="edit_profile">Chỉnh sửa thông tin cá nhân</string>
+    <string name="log_out">Đăng xuất</string>
+</resources>
